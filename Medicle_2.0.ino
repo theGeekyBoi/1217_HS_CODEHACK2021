@@ -77,6 +77,7 @@ void loop() {
   bmi = Weight/(metre*metre);
   Serial.println("Breathe on the blue sensor");
   temp();
+  revChar();
   displayDetails();
   Serial.println("--------------------------------");
   Serial.println("Please exit Medicle");
